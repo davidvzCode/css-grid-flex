@@ -1,0 +1,96 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: monospace, sans-serif;
+}
+
+main {
+    margin: 50px 50px;
+}
+
+main p {
+    margin-top: 4px;
+}
+
+h1 {
+    color: #F22E2E;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    background-color: #ffffff;
+}
+
+.container .perfil {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.container-perfil {
+    display: flex;
+    align-items: center;
+    height: 50px;
+    margin-left: 5px;
+}
+
+.container p {
+    margin-left: 3px;
+    color: gray;
+}
+
+.container .title {
+    display: flex;
+    flex-direction: column;
+    margin-left: 15px;
+}
+
+.container .img-card {
+    width: 100%;
+    height: 150px;
+}
+
+.actions-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 6px;
+}
+
+.actions-buttons button {
+    border: 0;
+    background-color: transparent;
+    color:#A6600A;
+    cursor: pointer;
+}
+
+.icons {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.icons .head,
+.icons .share {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    margin-right: 4.5px;
+}
+
+.icons .head {
+    background-image: url('/assets/icon/love.png');
+}
+
+.icons .share {
+    background-image: url('/assets/icon/share.png');
+}
